@@ -13,11 +13,12 @@ public class TC_LoginTest_001 extends BaseClass{
 	@Test
 	public void loginTest() throws IOException
 	{
-		
+		System.out.println(" inside test");
 		logger.info("url is fetched");
 		LoginPage lp =new LoginPage(driver);
 		
 		lp.setUserName(username);
+		
 		
 		logger.info("username is passed");
 		

@@ -37,7 +37,7 @@ public class BaseClass {
 	@BeforeClass
 	public void setUp(String br)
 	{
-
+System.out.println("Inside baseclass");
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		//logger=Logger.getLogger("eBanking");
 		logger=Logger.getLogger(BaseClass.class);
